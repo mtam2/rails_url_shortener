@@ -2,6 +2,8 @@
 Created in Ruby 2.6.5, Rails 6.0.1, sqlite3
 
 ## Initialize
+Pre-requisite: Requires rvm installed. Install via https://rvm.io/
+
 Use `make setup` initialize the gemset and database.
 
 ## Application
