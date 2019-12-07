@@ -1,0 +1,10 @@
+.body
+  .errors
+    - if @errors.present? || params[:errors].present?
+      %p
+        = @errors || params[:errors]
+  %br
+  = form_with model: @link do |f|
+    = f.label :original_link, "Shorten your link:"
+    = f.text_field :original_link, required: true
+    = f.submit 'Shorten'
