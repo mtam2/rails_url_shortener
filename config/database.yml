@@ -1,16 +1,16 @@
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
 development:
   <<: *default
-  database: db/rails_url_shortener_development.sqlite3
+  database: db/rails_url_shortener_development
 
 test:
   <<: *default
-  database: db/rails_url_shortener_test.sqlite3
+  database: db/rails_url_shortener_test
 
 production:
   <<: *default
-  database: db/rails_url_shortener_production.sqlite3
+  database: db/rails_url_shortener_production
