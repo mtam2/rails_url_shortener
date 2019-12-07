@@ -2,7 +2,7 @@
 Created in Ruby 2.6.5, Rails 6.0.1, sqlite3
 
 ## Initialize
-Use `make setup` to install rvm and initialize the database.
+Use `make setup` initialize the gemset and database.
 
 ## Application
 `make server`
