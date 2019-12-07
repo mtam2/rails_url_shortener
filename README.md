@@ -1,5 +1,5 @@
 # Simple url shortener
-Created in Ruby 2.6.5, Rails 6.0.1, sqlite3
+Created in Ruby 2.6.5, Rails 6.0.1, postgresql
 
 ## Initialize
 Pre-requisite: Requires rvm installed. Install via https://rvm.io/
