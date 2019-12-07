@@ -2,9 +2,7 @@
 Created in Ruby 2.6.5, Rails 6.0.1, sqlite3
 
 ## Initialize
-Use `make setup` if you already have a Ruby version management system setup.
-
-Use `make full_setup` if you do not have Ruby installed.
+Use `make setup` to install rvm and initialize the database.
 
 ## Application
 `make server`
