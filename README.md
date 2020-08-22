@@ -16,3 +16,7 @@ http://localhost:3000/
 
 ## Warnings
 - Currently using beta `gem 'rspec-rails', '~> 4.0.0.beta3'` due to bug listed here: https://stackoverflow.com/questions/58581334/generated-rspec-controller-test-is-failing-with-wrong-number-of-arguments-given
+
+## Update tips
+`bundle update`
+`yarn upgrade`
